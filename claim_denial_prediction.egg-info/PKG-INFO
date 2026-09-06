@@ -1,0 +1,21 @@
+Metadata-Version: 2.4
+Name: claim-denial-prediction
+Version: 0.1.0
+Summary: Claim Denial Prediction System — ML pipeline for healthcare revenue cycle management
+Requires-Python: >=3.10
+Requires-Dist: pyspark==3.5.1
+Requires-Dist: xgboost==2.0.3
+Requires-Dist: lightgbm==4.3.0
+Requires-Dist: mlflow==2.13.0
+Requires-Dist: hypothesis==6.103.1
+Requires-Dist: fastavro==1.9.4
+Requires-Dist: pyarrow==16.0.0
+Requires-Dist: apache-airflow==2.9.1
+Requires-Dist: optuna==3.6.1
+Requires-Dist: shap==0.45.0
+Requires-Dist: transformers[torch]==4.41.0
+Requires-Dist: pydantic==2.7.1
+Requires-Dist: numpy==1.26.4
+Provides-Extra: dev
+Requires-Dist: pytest==8.2.0; extra == "dev"
+Requires-Dist: pytest-cov==5.0.0; extra == "dev"
