@@ -193,7 +193,7 @@ if page == "🏠 Executive Summary":
         if not trend_df.empty:
             fig = make_subplots(specs=[[{"secondary_y": True}]])
             fig.add_trace(go.Bar(x=trend_df["day"], y=trend_df["total_claims"],
-                                 name="Total Claims", marker_color=INFO+"88"), secondary_y=False)
+                                 name="Total Claims", marker_color="rgba(41, 128, 185, 0.53)"), secondary_y=False)
             fig.add_trace(go.Scatter(x=trend_df["day"], y=trend_df["rolling_7d_denial_rate"],
                                      name="7-day Denial Rate", line=dict(color=DANGER, width=2)),
                           secondary_y=True)
