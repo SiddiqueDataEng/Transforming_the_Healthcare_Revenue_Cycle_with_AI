@@ -253,9 +253,9 @@ if page == "🏠 Executive Summary":
                 "axis": {"range": [70, 100]},
                 "bar": {"color": SUCCESS if latest_prec >= 0.90 else WARNING if latest_prec >= 0.85 else DANGER},
                 "steps": [
-                    {"range": [70, 80],  "color": DANGER+"33"},
-                    {"range": [80, 85],  "color": WARNING+"33"},
-                    {"range": [85, 100], "color": SUCCESS+"33"},
+                    {"range": [70, 80],  "color": "rgba(231, 76, 60, 0.2)"},
+                    {"range": [80, 85],  "color": "rgba(243, 156, 18, 0.2)"},
+                    {"range": [85, 100], "color": "rgba(39, 174, 96, 0.2)"},
                 ],
                 "threshold": {"line": {"color": DANGER, "width": 2}, "thickness": 0.75, "value": 90},
             },
